@@ -18,19 +18,25 @@ export default function UserProfile() { // Using a descriptive tag
       <div className='mt-4'>
         <h1 className="text-xl font-bold ml-2">Main Menu</h1>
         <hr className="h-4 font-bold mt-2" />
-        <MenuSection title="การศึกษา" icon="education.png" /> {/* Using a reusable MenuSection component */}
+        <MenuSection title="การศึกษา" icon="education.png" link='/profile/education' /> {/* Using a reusable MenuSection component */}
         <hr className="h-4 font-bold mt-2" />
-        <MenuSection title="คณะ" icon="faculty.png" />
+        <MenuSection title="คณะ" icon="faculty.png" link=''/>
         <hr className="h-4 font-bold mt-2" />
-        <MenuSection title="สถิติ" icon="statistic.png" />
+        <MenuSection title="สถิติ" icon="statistic.png" link='' />
         <hr className="h-4 font-bold mt-2" />
       </div>
       <div className='mt-1'>
         <h1 className="text-xl font-bold ml-2">Favourite</h1>
         <hr className="h-4 font-bold mt-2" />
-        <MenuSection title="ชมรม" icon="" /> 
+        <MenuSection title="ชมรม" icon="" link=''/> 
         <hr className="h-4 font-bold mt-2" />
-        <MenuSection title="Tu Blog" icon="" /> 
+        <MenuSection title="Tu Blog" icon="" link='/profile/entertainment/tu_blog'/> 
+        <hr className="h-4 font-bold mt-2" />
+        <MenuSection title="Entertainment" icon=""link='/profile/entertainment' /> 
+        <hr className="h-4 font-bold mt-2" />
+        <MenuSection title="Tu Blog" icon="" link='/profile/entertainment/tu_blog' /> 
+        <hr className="h-4 font-bold mt-2" />
+        <MenuSection title="Tu Blog" icon=""  link=''/> 
         <hr className="h-4 font-bold mt-2" />
       </div>
       <div className='mt-1'>
@@ -54,9 +60,10 @@ export default function UserProfile() { // Using a descriptive tag
 }
 
 
-function MenuSection({ title, icon = null }: { title: any; icon?: any }) {
+function MenuSection({ title = '', icon = null , link = ''}: { title: any; icon?: any; link:any }) {
+  // MenuSection({ icon = null, title = "" ,link=""}: { icon?: any; title: string; link:string})
     return (
-      <a href="/profile/education">
+      <a href={link}>
         <div className="flex -mt-2 items-center">
         {icon && <img src={icon} className="ml-2" alt={title} />}
         <h1 className="ml-3 font-serif text-lg">{title}</h1>
