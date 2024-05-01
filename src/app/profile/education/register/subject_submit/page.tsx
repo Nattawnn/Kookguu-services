@@ -39,51 +39,64 @@ return(
             <p className="text-xs mt-2">
             การกำหนดความต้องการทางซอฟต์แวร์
             </p>
-
-
+            <div className=' flex justify-end -mt-9 font-bold  ml-20'>
+                <img src="/add_circle.png" alt="delete" />
+            </div>
         </div>
-        <div role="tab-panel " id="panel-1" className="p-5 ">
+        <div role="tab-panel " id="panel-1" className="p-5 mt-2">
             <h1 className="font-semibold -mt-5 ">
             SF311 3 หน่วยกิต
             </h1>
             <p className="text-xs mt-2">
             สถาปัตยกรรมและการออกแบบซอฟต์แวร์
             </p>
-            
-
-
+            <div className=' flex justify-end -mt-9 font-bold  ml-20'>
+                <img src="/add_circle.png" alt="delete" />
+            </div>
         </div>
-        <div role="tab-panel " id="panel-1" className="p-5  ">
+        <div role="tab-panel " id="panel-1" className="p-5  mt-2">
             <h1 className="font-semibold -mt-5 ">
             SF341 3 หน่วยกิต
             </h1>
             <p className="text-xs mt-2">
             การสร้างซอฟต์แวร์ 1
             </p>
+            <div className=' flex justify-end -mt-9 font-bold  ml-20'>
+                <img src="/add_circle.png" alt="delete" />
+            </div>
         </div>
-        <div role="tab-panel " id="panel-1" className="p-5 ">
+        <div role="tab-panel " id="panel-1" className="p-5 mt-2">
             <h1 className="font-semibold -mt-5 ">
             CN230 3 หน่วยกิต            </h1>
             <p className="text-xs mt-2">
             ระบบฐานข้อมูล
             </p>
+            <div className=' flex justify-end -mt-9 font-bold  ml-20'>
+                <img src="/add_circle.png" alt="delete" />
+            </div>
             
 
 
         </div>
-        <div role="tab-panel " id="panel-1" className="p-5  ">
+        <div role="tab-panel " id="panel-1" className="p-5  mt-2">
             <h1 className="font-semibold -mt-5 ">
             วิชาเลือกเสรี 3 หน่วยกิต            </h1>
             <p className="text-xs mt-2">
             วิชาลือกเสรี
             </p>
+            <div className=' flex justify-end -mt-9 font-bold  ml-20'>
+                <img src="/add_circle.png" alt="delete" />
+            </div>
         </div>
-        <div role="tab-panel " id="panel-1" className="p-5  ">
+        <div role="tab-panel " id="panel-1" className="p-5  mt-2">
             <h1 className="font-semibold -mt-5 ">
             วิชาเลือกเสรี 3 หน่วยกิต            </h1>
             <p className="text-xs mt-2">
             วิชาลือกเสรี
             </p>
+            <div className=' flex justify-end -mt-9 font-bold  ml-20'>
+                <img src="/add_circle.png" alt="delete" />
+            </div>
         </div>
     </div>
     <h1 className='font-semibold text-sm mx-8 mt-4 text-gray-400'>ภาคเรียน 2/2567 </h1>
@@ -95,54 +108,68 @@ return(
             <p className="text-xs mt-2">
             การกำหนดความต้องการทางซอฟต์แวร์
             </p>
-
-
+            <div className=' flex justify-end -mt-9 font-bold  ml-20'>
+                <img src="/add_circle.png" alt="delete" />
+            </div>
         </div>
-        <div role="tab-panel " id="panel-1" className="p-5 ">
+        <div role="tab-panel " id="panel-1" className="p-5 mt-2">
             <h1 className="font-semibold -mt-5 ">
             SF311 3 หน่วยกิต
             </h1>
             <p className="text-xs mt-2">
             สถาปัตยกรรมและการออกแบบซอฟต์แวร์
             </p>
-            
-
-
+            <div className=' flex justify-end -mt-9 font-bold  ml-20'>
+                <img src="/add_circle.png" alt="delete" />
+            </div>
         </div>
-        <div role="tab-panel " id="panel-1" className="p-5  ">
+        <div role="tab-panel " id="panel-1" className="p-5  mt-2">
             <h1 className="font-semibold -mt-5 ">
             SF341 3 หน่วยกิต
             </h1>
             <p className="text-xs mt-2">
             การสร้างซอฟต์แวร์ 1
             </p>
+            <div className=' flex justify-end -mt-9 font-bold  ml-20'>
+                <img src="/add_circle.png" alt="delete" />
+            </div>
         </div>
-        <div role="tab-panel " id="panel-1" className="p-5 ">
+        <div role="tab-panel " id="panel-1" className="p-5 mt-2">
             <h1 className="font-semibold -mt-5 ">
             CN230 3 หน่วยกิต            </h1>
             <p className="text-xs mt-2">
             ระบบฐานข้อมูล
             </p>
+            <div className=' flex justify-end -mt-9 font-bold  ml-20'>
+                <img src="/add_circle.png" alt="delete" />
+            </div>
             
 
 
         </div>
-        <div role="tab-panel " id="panel-1" className="p-5  ">
+        <div role="tab-panel " id="panel-1" className="p-5  mt-2">
             <h1 className="font-semibold -mt-5 ">
             วิชาเลือกเสรี 3 หน่วยกิต            </h1>
             <p className="text-xs mt-2">
             วิชาลือกเสรี
             </p>
+            <div className=' flex justify-end -mt-9 font-bold  ml-20'>
+                <img src="/add_circle.png" alt="delete" />
+            </div>
         </div>
-        <div role="tab-panel " id="panel-1" className="p-5  ">
+        <div role="tab-panel " id="panel-1" className="p-5  mt-2">
             <h1 className="font-semibold -mt-5 ">
             วิชาเลือกเสรี 3 หน่วยกิต            </h1>
             <p className="text-xs mt-2">
             วิชาลือกเสรี
             </p>
+            <div className=' flex justify-end -mt-9 font-bold  ml-20'>
+                <img src="/add_circle.png" alt="delete" />
+            </div>
         </div>
     </div>
     <div className="py-12">
+
 
     </div>
     
